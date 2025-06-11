@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://placehold.co/160x40/0056b3/ffffff" alt="Longcheer" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" data-lang="nav-home">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" data-lang="nav-about">关于我们</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="smartphone.html" data-lang="nav-products">产品展示</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="culture.html" data-lang="nav-culture">企业文化</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" data-lang="nav-esg">联系我们</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="career.html" data-lang="nav-career">职业发展</a>
+                    </li> -->
+                </ul>
+                <div class="language-switch">
+                    <button class="btn btn-link" onclick="switchLanguage('zh')">中文</button>
+                    <span>/</span>
+                    <button class="btn btn-link" onclick="switchLanguage('en')">EN</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页横幅 -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-md-6" data-aos="fade-right">
+                    <h1 class="display-4" data-lang="hero-title">领先的智能产品和服务提供商</h1>
+                    <p class="lead" data-lang="hero-subtitle">用科技为社会创造新价值</p>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <img src="https://placehold.co/600x400/0056b3/ffffff" alt="Hero Image" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 公司概况 -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-up">
+                    <h2 class="section-title" data-lang="about-title">公司概况</h2>
+                    <p data-lang="about-content">成立于2002年，是从事智能产品的研发设计及生产制造等综合服务的科技企业。公司深耕行业20余年，已成长为全球领先的智能产品和服务提供商。</p>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://placehold.co/600x400/0056b3/ffffff" class="img-fluid rounded" alt="Company">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品展示 -->
+    <section id="products" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-lang="products-title">产品展示</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="zoom-in">
+                    <div class="card">
+                        <img src="https://placehold.co/400x300/0056b3/ffffff" class="card-img-top" alt="Smart Phone">
+                        <div class="card-body">
+                            <h5 class="card-title" data-lang="product1-title">智能手机</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- 更多产品卡片 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 企业文化 -->
+    <section id="culture" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-lang="culture-title">企业文化</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up">
+                    <div class="culture-item text-center">
+                        <h3 data-lang="culture-vision">我们的愿景</h3>
+                        <p data-lang="culture-vision-content">成为领先的智能产品和服务提供商</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="culture-item text-center">
+                        <h3 data-lang="culture-mission">我们的使命</h3>
+                        <p data-lang="culture-mission-content">用科技为社会创造新价值</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="culture-item text-center">
+                        <h3 data-lang="culture-values">核心价值观</h3>
+                        <p data-lang="culture-values-content">以客户为中心，以贡献者为本，长期主义</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p data-lang="copyright">Copyright©2016上海科技股份有限公司 版权所有</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p>版权所有© 沪ICP备05021502号-4</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>企业文化</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://placehold.co/160x40/0056b3/ffffff" alt="Longcheer" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" data-lang="nav-home">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" data-lang="nav-about">关于我们</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="smartphone.html" data-lang="nav-products">产品展示</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="culture.html" data-lang="nav-culture">企业文化</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" data-lang="nav-esg">联系我们</a>
+                    </li>
+                </ul>
+                <div class="language-switch">
+                    <button class="btn btn-link" onclick="switchLanguage('zh')">中文</button>
+                    <span>/</span>
+                    <button class="btn btn-link" onclick="switchLanguage('en')">EN</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 企业文化标题 -->
+    <section class="culture-banner py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 mb-4" data-lang="culture-title">企业文化</h1>
+                    <h2 class="h4 text-muted" data-lang="culture-subtitle">COMPANY CULTURE</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 文化内容 -->
+    <section class="culture-content py-5">
+        <div class="container">
+            <div class="row">
+                <!-- 创新文化 -->
+                <div class="col-md-6 mb-4" data-aos="fade-right">
+                    <div class="culture-item">
+                        <div class="culture-image mb-4">
+                            <img src="https://placehold.co/600x400/0056b3/ffffff" alt="创新文化" class="img-fluid rounded">
+                        </div>
+                        <h3 class="mb-3" data-lang="culture-innovation">创新文化</h3>
+                        <p class="mb-0" data-lang="culture-innovation-content">鼓励创新思维，拥抱变革，持续突破技术边界，为客户创造更大价值。</p>
+                        <ul class="list-unstyled mt-3">
+                            <li class="mb-2" data-lang="culture-innovation-1">• 创新实验室</li>
+                            <li class="mb-2" data-lang="culture-innovation-2">• 技术研讨会</li>
+                            <li class="mb-2" data-lang="culture-innovation-3">• 创新项目孵化</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 协作文化 -->
+                <div class="col-md-6 mb-4" data-aos="fade-left">
+                    <div class="culture-item">
+                        <div class="culture-image mb-4">
+                            <img src="https://placehold.co/600x400/0056b3/ffffff" alt="协作文化" class="img-fluid rounded">
+                        </div>
+                        <h3 class="mb-3" data-lang="culture-collaboration">协作文化</h3>
+                        <p class="mb-0" data-lang="culture-collaboration-content">倡导开放合作，跨部门协同，打造高效团队，实现共同目标。</p>
+                        <ul class="list-unstyled mt-3">
+                            <li class="mb-2" data-lang="culture-collaboration-1">• 跨部门项目组</li>
+                            <li class="mb-2" data-lang="culture-collaboration-2">• 团队建设活动</li>
+                            <li class="mb-2" data-lang="culture-collaboration-3">• 知识分享平台</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 工作环境 -->
+    <section class="work-environment py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-lang="work-env-title">工作环境</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up">
+                    <div class="env-item">
+                        <img src="https://placehold.co/400x300/0056b3/ffffff" alt="办公环境" class="img-fluid rounded mb-3">
+                        <h4 data-lang="env-office">现代化办公环境</h4>
+                        <p data-lang="env-office-content">宽敞明亮的办公空间，配备先进的办公设施，为员工提供舒适的工作环境。</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="env-item">
+                        <img src="https://placehold.co/400x300/0056b3/ffffff" alt="休闲区域" class="img-fluid rounded mb-3">
+                        <h4 data-lang="env-leisure">休闲娱乐空间</h4>
+                        <p data-lang="env-leisure-content">健身房、休息室、咖啡吧等休闲设施，让员工在工作之余得到充分放松。</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="env-item">
+                        <img src="https://placehold.co/400x300/0056b3/ffffff" alt="研发中心" class="img-fluid rounded mb-3">
+                        <h4 data-lang="env-lab">创新研发中心</h4>
+                        <p data-lang="env-lab-content">配备先进设备的研发实验室，为技术创新提供最佳环境。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 团队风采 -->
+    <section class="team-spirit py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="team-photos">
+                        <div class="row g-4">
+                            <div class="col-md-8" data-aos="zoom-in">
+                                <img src="https://placehold.co/800x500/0056b3/ffffff" alt="团队照片" class="img-fluid rounded">
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row g-4">
+                                    <div class="col-12" data-aos="zoom-in" data-aos-delay="200">
+                                        <img src="https://placehold.co/400x300/0056b3/ffffff" alt="团队活动" class="img-fluid rounded">
+                                    </div>
+                                    <div class="col-12" data-aos="zoom-in" data-aos-delay="400">
+                                        <img src="https://placehold.co/400x300/0056b3/ffffff" alt="团队活动" class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 员工发展 -->
+    <section class="employee-development py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-lang="employee-dev-title">员工发展</h2>
+            <div class="row">
+                <div class="col-md-3 mb-4" data-aos="fade-up">
+                    <div class="dev-item text-center">
+                        <img src="https://placehold.co/200x200/0056b3/ffffff" alt="培训体系" class="img-fluid rounded-circle mb-3">
+                        <h4 data-lang="dev-training">培训体系</h4>
+                        <p data-lang="dev-training-content">完善的培训体系，助力员工成长</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="dev-item text-center">
+                        <img src="https://placehold.co/200x200/0056b3/ffffff" alt="职业发展" class="img-fluid rounded-circle mb-3">
+                        <h4 data-lang="dev-career">职业发展</h4>
+                        <p data-lang="dev-career-content">清晰的晋升通道，实现职业理想</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="dev-item text-center">
+                        <img src="https://placehold.co/200x200/0056b3/ffffff" alt="工作环境" class="img-fluid rounded-circle mb-3">
+                        <h4 data-lang="dev-environment">工作环境</h4>
+                        <p data-lang="dev-environment-content">舒适的工作环境，激发创新活力</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="dev-item text-center">
+                        <img src="https://placehold.co/200x200/0056b3/ffffff" alt="福利待遇" class="img-fluid rounded-circle mb-3">
+                        <h4 data-lang="dev-benefits">福利待遇</h4>
+                        <p data-lang="dev-benefits-content">优厚的福利待遇，保障员工权益</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 企业活动 -->
+    <section class="company-activities py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5" data-lang="activities-title">企业活动</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up">
+                    <div class="activity-item">
+                        <img src="https://placehold.co/400x300/0056b3/ffffff" alt="团建活动" class="img-fluid rounded mb-3">
+                        <h4 data-lang="activity-team">团建活动</h4>
+                        <p data-lang="activity-team-content">丰富多彩的团建活动，增进团队凝聚力</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="activity-item">
+                        <img src="https://placehold.co/400x300/0056b3/ffffff" alt="文化活动" class="img-fluid rounded mb-3">
+                        <h4 data-lang="activity-culture">文化活动</h4>
+                        <p data-lang="activity-culture-content">多元化的文化活动，丰富员工生活</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="activity-item">
+                        <img src="https://placehold.co/400x300/0056b3/ffffff" alt="公益活动" class="img-fluid rounded mb-3">
+                        <h4 data-lang="activity-charity">公益活动</h4>
+                        <p data-lang="activity-charity-content">积极履行社会责任，参与公益事业</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p data-lang="copyright">Copyright©2016上海科技股份有限公司 版权所有</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p>版权所有© 沪ICP备05021502号-4</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
