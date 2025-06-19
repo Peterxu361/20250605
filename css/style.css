@@ -372,7 +372,7 @@ body {
     }
 }
 
-/* 企业文化页面样式 */
+/* 合作关系页面样式 */
 .culture-banner {
     background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('../images/culture-bg.jpg');
     background-size: cover;
@@ -557,7 +557,7 @@ body {
 .timeline-item .year {
     position: absolute;
     left: 50%;
-    top: 0;
+    top: 40px;
     transform: translateX(-50%);
     background: var(--primary-color);
     color: white;
@@ -606,7 +606,8 @@ body {
     }
     
     .timeline-item .year {
-        left: 20px;
+        left: -10px;
+        top: 40px;
         transform: none;
     }
     
@@ -614,4 +615,28 @@ body {
         width: calc(100% - 50px);
         margin-left: 50px !important;
     }
+}
+
+.product-img {
+    object-fit: contain;
+    height: 220px;
+    background: #f8f9fa;
+}
+
+.equipment-carousel {
+    height: 350px;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.equipment-carousel .carousel-inner,
+.equipment-carousel .carousel-item,
+.equipment-carousel .equipment-img {
+    height: 100%;
+}
+.equipment-carousel .equipment-img {
+    object-fit: contain;
+    width: 100%;
+    background: #f8f9fa;
 } 
