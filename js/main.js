@@ -90,11 +90,11 @@ const translations = {
         'contact-title': '联系我们',
         'contact-subtitle': 'CONTACT US',
         'contact-address-title': '公司地址',
-        'contact-address': '上海市浦东新区张江高科技园区科苑路88号',
+        'contact-address': '香港新界沙田火炭桂地街10-14號華麗工業中心11楼6室',
         'contact-phone-title': '联系电话',
-        'contact-phone': '+86 21 5080 0000',
+        'contact-phone': 'Tel.:(852)3188447、31884564 Fax:(852)31884152',
         'contact-email-title': '电子邮箱',
-        'contact-email': 'contact@longcheer.com',
+        'contact-email': 'kgd@kgdcor.com',
         'contact-form-title': '给我们留言',
         'contact-submit': '发送留言',
         'contact-name-placeholder': '您的姓名',
@@ -151,7 +151,13 @@ const translations = {
         'service-step7-title': '货物运输',
         'service-step7-desc': '支持海运、空运、陆运多种运输方式。',
         'service-step8-title': '售后服务',
-        'service-step8-desc': '专人跟进，及时响应客户需求。'
+        'service-step8-desc': '专人跟进，及时响应客户需求。',
+        'footer-company-name': '金川電装有限公司',
+        'footer-contact-info': 'Tel.:(852)3188447、31884564 Fax:(852)31884152',
+        'footer-email': 'kgd@kgdcor.com',
+        'footer-address': '香港新界沙田火炭桂地街10-14號華麗工業中心11楼6室',
+        'footer-quick-links': '快速链接',
+        'footer-copyright': '版权所有'
     },
     en: {
         'nav-home': 'Home',
@@ -243,11 +249,11 @@ const translations = {
         'contact-title': 'Contact Us',
         'contact-subtitle': 'CONTACT US',
         'contact-address-title': 'Address',
-        'contact-address': 'No. 88 Keyuan Road, Zhangjiang Hi-Tech Park, Pudong New Area, Shanghai',
+        'contact-address': 'Unit 6, 11/F, Wah Luen Industrial Centre, 10-14 Kwei Tei Street, Fo Tan, Shatin, N.T., Hong Kong',
         'contact-phone-title': 'Phone',
-        'contact-phone': '+86 21 5080 0000',
+        'contact-phone': 'Tel.:(852)3188447, 31884564 Fax:(852)31884152',
         'contact-email-title': 'Email',
-        'contact-email': 'contact@longcheer.com',
+        'contact-email': 'kgd@kgdcor.com',
         'contact-form-title': 'Send Us a Message',
         'contact-submit': 'Send Message',
         'contact-name-placeholder': 'Your Name',
@@ -304,7 +310,13 @@ const translations = {
         'service-step7-title': 'Logistics',
         'service-step7-desc': 'Support sea, air, and land transportation.',
         'service-step8-title': 'After-sales Service',
-        'service-step8-desc': 'Dedicated personnel follow up and respond to customer needs in time.'
+        'service-step8-desc': 'Dedicated personnel follow up and respond to customer needs in time.',
+        'footer-company-name': 'KGD (H.K.) Corporation Limited',
+        'footer-contact-info': 'Tel.:(852)3188447, 31884564 Fax:(852)31884152',
+        'footer-email': 'kgd@kgdcor.com',
+        'footer-address': 'Unit 6, 11/F, Wah Luen Industrial Centre, 10-14 Kwei Tei Street, Fo Tan, Shatin, N.T., Hong Kong',
+        'footer-quick-links': 'Quick Links',
+        'footer-copyright': 'All Rights Reserved'
     }
 };
 
